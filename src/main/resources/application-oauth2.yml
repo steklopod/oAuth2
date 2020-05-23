@@ -1,3 +1,5 @@
+#  http://localhost:585/login/oauth2/code/google
+#  http://localhost:585/oauth2/authorization/google
 spring:
   security:
     oauth2:
@@ -6,13 +8,6 @@ spring:
           google:
             client-id: 850654767182-ur5db52cs3a1q4phv6l3qee97nq5skud.apps.googleusercontent.com
             client-secret: 0WKx9xIpCzkQejcB_G_K3jXE
-#            accessTokenUri: https://graph.facebook.com/oauth/access_token
-#            userAuthorizationUri: https://www.facebook.com/dialog/oauth
-#            tokenName: oauth_token
-#            authenticationScheme: query
-#            clientAuthenticationScheme: form
-#          resource:
-#            userInfoUri: https://graph.facebook.com/me
           facebook:
             client-id: your-app-client-id
             client-secret: your-app-client-secret
@@ -25,3 +20,5 @@ spring:
             token-uri: https://your-subdomain.oktapreview.com/oauth2/v1/token
             user-info-uri: https://your-subdomain.oktapreview.com/oauth2/v1/userinfo
             jwk-set-uri: https://your-subdomain.oktapreview.com/oauth2/v1/keys
+
+#https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2login-boot-property-mappings:
