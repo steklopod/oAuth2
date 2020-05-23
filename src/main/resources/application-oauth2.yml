@@ -1,5 +1,7 @@
-#  http://localhost:585/login/oauth2/code/google
+#  http://localhost:3000/login
+#  TO see all links: http://localhost:585/login/oauth2/code/google
 #  http://localhost:585/oauth2/authorization/google
+
 spring:
   security:
     oauth2:

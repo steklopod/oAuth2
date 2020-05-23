@@ -16,10 +16,7 @@ class OAuth2LoginSecurityConfig : WebSecurityConfigurerAdapter() {
                 authorize(anyRequest, authenticated)
             }
             oauth2Login {
-
-                userInfoEndpoint {
-                    userAuthoritiesMapper = userMapper()
-                }
+                userInfoEndpoint { userAuthoritiesMapper = userMapper() }
                 defaultSuccessUrl("/success", true)
             }
         }
