@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 850654767182-ur5db52cs3a1q4phv6l3qee97nq5skud.apps.googleusercontent.com
+            client-secret: 0WKx9xIpCzkQejcB_G_K3jXE
+#            accessTokenUri: https://graph.facebook.com/oauth/access_token
+#            userAuthorizationUri: https://www.facebook.com/dialog/oauth
+#            tokenName: oauth_token
+#            authenticationScheme: query
+#            clientAuthenticationScheme: form
+#          resource:
+#            userInfoUri: https://graph.facebook.com/me
